@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     title: 'BlindScan',
-    description:"Built a Image Classification and Object Detection System using Custom Convolutional Neural Networks (CNNs) (Eventually working on ResNet (Pretrained base from Google)). The system is designed to assist visually impaired individuals by classfiying and detecting notes in Indian currency.",
+    description:"Built an Image Classification and Object Detection System using Custom Convolutional Neural Networks (CNNs) (Eventually working on ResNet (Pretrained base from Google)). The system is designed to assist visually impaired individuals by classfiying and detecting notes in Indian currency.",
     image: '/images/blindscan2.png',
     tags: ['CNN', 'TensorFlow', 'Python', 'Flask'],
     visit: 'https://github.com/tanishkhot/BlindScan',

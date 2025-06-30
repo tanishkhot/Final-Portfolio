@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am a passionate software developer with a keen interest in web development and AI. I have experience in building full-stack applications, focusing on both front-end and back-end technologies. 
+      I am a passionate software developer with a keen interest in web technologies and AI. I have experience in building full-stack applications, focusing on both front-end and back-end technologies. 
       On the weekends, you'll find me climbing mountains, reading or running half-marathons. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

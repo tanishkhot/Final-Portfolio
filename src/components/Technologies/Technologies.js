@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            - React.js 
+            - React.js <br/>
             - Next.js
           </ListParagraph>
         </ListContainer>

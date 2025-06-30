@@ -13,7 +13,7 @@ const Hero = (props) => (
           I am Tanish Khot.
         </SectionTitle>
         <SectionText>
-          I am a Full Stack Developer learning AI and part time wanna be Endurance Athlete. I am passionate about building innovative solutions that make a difference.
+          I am a Full Stack Developer learning AI and part time wannabe Endurance Athlete. I am passionate about building innovative solutions that make a difference.
         </SectionText>
         {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>
