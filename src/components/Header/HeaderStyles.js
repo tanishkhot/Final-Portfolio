@@ -26,14 +26,14 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
-export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
-  display: flex;
-  justify-content: space-around;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
-  }
-`;
+// export const Div2 = styled.div`
+//   grid-area: 1 / 2 / 2 / 4;
+//   display: flex;
+//   justify-content: space-around;
+//   @media ${(props) => props.theme.breakpoints.sm} {
+//     grid-area: 2 / 2 / 3 / 5;
+//   }
+// `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
@@ -122,3 +122,45 @@ border-radius: 50px;
     
   }
 `
+
+export const Hamburger = styled.div`
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: auto;
+  z-index: 20;
+
+  @media (max-width: 768px) {
+    display: flex;
+  }
+`;
+
+export const Bar = styled.div`
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  margin: 4px 0;
+  border-radius: 2px;
+`;
+
+export const Div2 = styled.ul`
+  display: flex;
+  gap: 24px;
+  list-style: none;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    background: #0f1624;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100vw;
+    padding: 24px 0;
+    align-items: center;
+    z-index: 10;
+    transition: 0.3s;
+    display: ${({ open }) => (open ? 'flex' : 'none')};
+  }
+`;
+
+// ...rest of your styles...
