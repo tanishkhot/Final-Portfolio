@@ -19,7 +19,7 @@ const Hero = (props) => (
   View My Resume
 </a>
       <br />
-      <button
+      {/* <button
         style={{
           margin: '16px 0',
           padding: '10px 24px',
@@ -33,7 +33,7 @@ const Hero = (props) => (
         onClick={() => window.open('/resume.pdf', '_blank', 'noopener')}
       >
         Download Resume
-      </button>
+      </button> */}
         {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>
     </Section>
