@@ -15,7 +15,7 @@ const Hero = (props) => (
         <SectionText>
           I am a Full Stack Developer learning AI and part time wannabe Endurance Athlete. I am passionate about building innovative solutions that make a difference.
         </SectionText>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/tanish-sde-resume.pdf" target="_blank" rel="noopener noreferrer">
   View My Resume
 </a>
       <br />
